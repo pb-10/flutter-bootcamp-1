@@ -4,9 +4,10 @@ Flutter Bootcamp will be held for a month(?) to help people learn Flutter from g
 
 ## Week 1 - Getting Started with Dart
 
+- Why Dart
 - Teach programming with Dart
 - Cover OOP with Dart
-- Exercise
+- Exercise on https://dartpad.dartlang.org/
 - Share some resources
 
 ## Week 2 - Introduction to Flutter
@@ -16,11 +17,13 @@ Flutter Bootcamp will be held for a month(?) to help people learn Flutter from g
     - Various Advantages
 - Difference between Stateful and Stateless Widgets
 - Creating First App
+- Exploring packages on https://pub.dartlang.org/flutter
 - Exercise
 
 ## Week 3 
 
 - Navigation in Flutter
+- NoSQL vs SQL
 - Flutter and Firebase
 - Exercise
 
