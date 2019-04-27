@@ -1,24 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow|Fira+Sans+Condensed|Noto+Sans+TC');
-html, body{
+/* html, body{
     height: 100%;
-}
+} */
 body{
     margin:0 auto;
-    background: #54c5f87d;
+    background-color: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
     color: white;
-}
+} 
 img{
     width: 300px;
     margin-top: 50px;    
 }
 h1{
     font-family: 'Fira Sans Condensed', sans-serif;
-    font-size: 75px;
-    margin-bottom: 10px;
+    font-size: 4.5rem;
+    /* margin-bottom: 10px; */
     text-shadow: 0px 0px 6px #54c5f8;
 }
 h2{
     font-family: 'Noto Sans TC', sans-serif;
-    font-size: 50px;
+    font-size: 4rem;
+}
+.agenda h2{
+    text-align: center;
+}
+.agenda{
+    padding-top: 80px;
+    text-align: left;
 }
