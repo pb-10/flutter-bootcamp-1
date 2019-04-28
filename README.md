@@ -48,9 +48,10 @@ Start Time - End Time : Q&A, Quiz on Kahoot, Feedback & Networking
 
 ### Day 3
 
-Start Time - End Time : Navigation in Flutter & NoSQL VS SQL <br>
+Start Time - End Time : Navigation in Flutter & BLoC pattern <br>
 Start Time - End Time : Break <br>
-Start Time - End Time : Introduction to Firebase Services & Flutter with Firebase
+Start Time - End Time : NoSQL VS SQL, Introduction to Firebase Services & Flutter with Firebase
+Start Time - End Time : Q&A, Feedback & Networking
 
 ### Day 4
 
