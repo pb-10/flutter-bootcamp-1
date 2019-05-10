@@ -105,6 +105,64 @@ header .highlight{
   border-width: 3px;
   padding:21px;
 }
+
+#boxes .box-profile{
+  float:left;
+  text-align: center;
+  border-radius: 20px;
+  border:1px solid black;
+  padding:21px;
+  margin-left: 100px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  width:300px;
+  text-align: center;
+  font-family: 'Comfortaa';
+}
+
+#boxes .box-profile img{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+#boxes .box-profile #logos a{
+  margin-left: 8px;
+}
+#boxes .box-profile #logos a i{
+  font-size: 20px;
+  color: #616161;
+}
+
+#boxes .box-profile-team{
+  float:left;
+  text-align: center;
+  border-radius: 20px;
+  border:1px solid black;
+  padding:21px;
+  margin-left: 53px;
+  margin-top: 30px; 
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  width:25%;
+  font-family: 'Comfortaa';
+}
+
+#boxes .box-profile-team img{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+#boxes .box-profile-team #logos a{
+  margin-left: 8px;
+}
+#boxes .box-profile-team #logos a i{
+  font-size: 20px;
+  color: #616161;
+}
+
+
 #boxes .box-sponsor{
   float:left;
   text-align: center;
@@ -331,6 +389,20 @@ footer{
     width:96%;
     margin-bottom:5px;
   }
+
+
+#boxes .box-profile{
+  float:none;
+  width: 80%;
+  margin: 10px;
+}
+
+
+#boxes .box-profile-team{
+  float:none;
+  width: 80%;
+  margin: 10px;
+}
 
   /*Tiime Line */
   .timeline::after {
