@@ -87,7 +87,7 @@ header .highlight{
     background-color: #121212;
     color: #FFF;
     width: 100%;
-    padding-top: 10px;
+    padding-top:10px;
     padding-bottom:10px;
 }
 
@@ -272,8 +272,6 @@ footer{
 @media(max-width: 768px){
   header #branding,
   header img,
-  footer,
-  .container,
   header #branding h1,
   #newsletter h1,
   #newsletter form,
@@ -288,10 +286,6 @@ footer{
   }
   header img{
     width: 45px;
-  }
-  header #branding img{
-    float: none;
-    padding-left:30px; 
   }
   #boxes .box{
     width: 95%;
@@ -318,7 +312,6 @@ footer{
   }
 
   header{
-    width: 100%;
     padding-bottom:20px;
   }
 
@@ -327,13 +320,13 @@ footer{
   }
 
 
-  #newsletter button{
+  #newsletter button, .quote button{
     display:block;
     width:100%;
   }
 
   #newsletter form input[type="email"], .quote input, .quote textarea{
-    width:95%;
+    width:96%;
     margin-bottom:5px;
   }
 
@@ -371,12 +364,6 @@ footer{
   }
 
   footer{
-    width: 100%;
     font-size: 12px;
-  }
-
-  footer p{
-    text-align: center;
-    vertical-align: center;
   }
 }
