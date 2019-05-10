@@ -271,6 +271,8 @@ footer{
 @media(max-width: 768px){
   header #branding,
   header img,
+  footer,
+  .container,
   header #branding h1,
   #newsletter h1,
   #newsletter form,
@@ -285,6 +287,10 @@ footer{
   }
   header img{
     width: 45px;
+  }
+  header #branding img{
+    float: none;
+    padding-left:30px; 
   }
   #boxes .box{
     width: 95%;
@@ -363,6 +369,13 @@ footer{
   }
 
   footer{
+    width: 100%;
     font-size: 12px;
+  }
+
+  footer p{
+    
+    text-align: center;
+    vertical-align: center;
   }
 }
