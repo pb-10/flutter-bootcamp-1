@@ -326,13 +326,13 @@ footer{
   }
 
 
-  #newsletter button, .quote button{
+  #newsletter button{
     display:block;
     width:100%;
   }
 
   #newsletter form input[type="email"], .quote input, .quote textarea{
-    width:96%;
+    width:95%;
     margin-bottom:5px;
   }
 
@@ -372,10 +372,6 @@ footer{
   footer{
     width: 100%;
     font-size: 12px;
-  }
-
-  #showcase{
-    width: 100%;
   }
 
   footer p{
