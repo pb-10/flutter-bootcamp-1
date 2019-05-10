@@ -317,6 +317,7 @@ footer{
   }
 
   header{
+    width: 100%;
     padding-bottom:20px;
   }
 
@@ -373,8 +374,11 @@ footer{
     font-size: 12px;
   }
 
+  #showcase{
+    width: 100%;
+  }
+
   footer p{
-    
     text-align: center;
     vertical-align: center;
   }
