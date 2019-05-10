@@ -87,7 +87,8 @@ header .highlight{
     background-color: #121212;
     color: #FFF;
     width: 100%;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom:10px;
 }
 
 .section-header div h3{
@@ -317,6 +318,7 @@ footer{
   }
 
   header{
+    width: 100%;
     padding-bottom:20px;
   }
 
@@ -369,6 +371,7 @@ footer{
   }
 
   footer{
+    width: 100%;
     font-size: 12px;
   }
 
