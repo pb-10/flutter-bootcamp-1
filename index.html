@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Flutter Bootcamp Vadodara</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <header>
@@ -24,10 +24,25 @@
     <section id="newsletter">
       <div class="container">
         <h1>Subscribe To Get Updates</h1>
-        <form>
-          <input type="email" placeholder="Enter Email...">
-          <button type="submit" class="button_1">Subscribe</button>
+        <form id="SubscribeForm">
+          <input type="email" name="email" id="email" placeholder="Enter Email...">
+          <button type="submit" id="submit" class="button_1">Subscribe</button>
         </form>
+          <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbykUSW-y3rSo8h3dYFcG81roM6FFKYxeTAxLPEnLjRhQRxIsYs/exec'
+            const form = document.forms['SubscribeForm']
+
+            form.addEventListener('submit', e => {
+              e.preventDefault() 
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+              .then(function (response) {
+                console.log('Success!', response)
+                alert("Subscribed")
+
+              })
+            .catch(error => console.error('Error!', error.message))
+            })
+        </script>
       </div>
     </section>
     <section class="section-header">
@@ -153,7 +168,7 @@
           <p>DSC Lead | Flutter Enthusiastic</p>
           <p>Parul University</p>
           <div id="logos"> 
-            <a href="https://twitter.com/ayushbherwani"><i class="fa fa-twitter"></i></a>  
+            <a href="https://www.twitter.com/ayushbherwani"><i class="fa fa-twitter"></i></a>  
             <a href="https://www.linkedin.com/in/ayush-bherwani-9529b3158"><i class="fa fa-linkedin"></i></a>  
             <a href="https://www.github.com/AyushBherwani1998"><i class="fa fa-github"></i></a> 
           </div>
@@ -164,9 +179,9 @@
           <p>GitHub Campus Expert | DSC Lead</p>
           <p>SVIT Vasad</p>
           <div id="logos"> 
-            <a href="https://twitter.com/a_harshil1712"><i class="fa fa-twitter"></i></a>  
+            <a href="https://www.twitter.com/a_harshil1712"><i class="fa fa-twitter"></i></a>  
             <a href="https://www.linkedin.com/in/harshil1712/"><i class="fa fa-linkedin"></i></a>  
-            <a href="http://github.com/harshil1712/"><i class="fa fa-github"></i></a>    
+            <a href="http://www.github.com/harshil1712/"><i class="fa fa-github"></i></a>    
           </div>
         </div>
         <div class="box-profile-team">
@@ -175,9 +190,9 @@
           <p>DSC Core Team Member</p>
           <p>SVIT Vasad</p>
           <div id="logos"> 
-            <a href="#"><i class="fa fa-twitter"></i></a>  
-            <a href="#"><i class="fa fa-linkedin"></i></a>  
-            <a href="#"><i class="fa fa-github"></i></a> 
+            <a href="https://mobile.twitter.com/arps_1899"><i class="fa fa-twitter"></i></a>  
+            <a href="https://www.linkedin.com/in/arpan-patel-025323154"><i class="fa fa-linkedin"></i></a>  
+            <a href="http://www.github.com/arps18/"><i class="fa fa-github"></i></a> 
           </div>
         </div>
         <div class="box-profile-team">
@@ -186,9 +201,9 @@
           <p>DSC Core Team Member</p>
           <p>SVIT Vasad</p>
           <div id="logos"> 
-            <a href="#"><i class="fa fa-twitter"></i></a>  
-            <a href="#"><i class="fa fa-linkedin"></i></a>  
-            <a href="#"><i class="fa fa-github"></i></a>    
+            <a href="https://mobile.twitter.com/pranitb10"><i class="fa fa-twitter"></i></a>  
+            <a href="https://www.linkedin.com/in/pranit-brahmbhatt-340ab7149/"><i class="fa fa-linkedin"></i></a>  
+            <a href="https://github.com/pb-10"><i class="fa fa-github"></i></a>    
           </div>
         </div>
       </div>
