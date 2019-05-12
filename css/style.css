@@ -15,6 +15,20 @@ body{
   overflow:hidden;
 }
 
+.flex-container{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: white;
+}
+
+.flex-container > div{
+  margin: 30px 0px 30px 0px;
+  text-align: center;
+  font-family: 'Comfortaa';
+  border-width: 3px;
+  padding: 40px;
+}
 
 .button_1{
   height:38px;
@@ -33,10 +47,17 @@ body{
 #showcase{
   padding: 70px;
   min-height:650px;
-  background:url('../img/CS-01.png') no-repeat 0;
+  background:url('../img/flutter-poster.png') no-repeat 0;
   background-size:100% 100%;
 }
-
+#showcase p{
+  margin-left: -13px; 
+  margin-top: 500px;
+  color: white;
+  font-family: 'Comfortaa';
+  font-weight: bold;
+  font-size: 40px;
+}
 /* Newsletter */
 #newsletter{
   padding:15px;
@@ -82,66 +103,55 @@ body{
   text-align: center;
 }
 
-#boxes .box{
-  float:left;
-  text-align: center;
-  width:30%;
-  border-width: 3px;
-  padding:21px;
-}
 
-#boxes .box-profile{
-  float:left;
+.flex-container > .box-profile{
   text-align: center;
   border-radius: 20px;
+  margin: 40px;
   border:1px solid black;
-  padding:21px;
-  margin-left: 100px;
+  padding:20px;
+  width: 20%;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  width:300px;
   text-align: center;
   font-family: 'Comfortaa';
 }
 
-#boxes .box-profile img{
+.flex-container > .box-profile img{
   border-radius: 50%;
   height: 200px;
   width: 200px;
   object-fit: cover;
 }
 
-#boxes .box-profile #logos a{
+.flex-container > .box-profile #logos a{
   margin-left: 8px;
 }
-#boxes .box-profile #logos a i{
+.flex-container > .box-profile #logos a i{
   font-size: 20px;
   color: #616161;
 }
 
-#boxes .box-profile-team{
-  float:left;
-  text-align: center;
+.flex-container > .box-profile-team{
   border-radius: 20px;
   border:1px solid black;
   padding:21px;
-  margin-left: 53px;
-  margin-top: 30px; 
+  margin:30px; 
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  width:25%;
+  width:30%;
   font-family: 'Comfortaa';
 }
 
-#boxes .box-profile-team img{
+.flex-container > .box-profile-team img{
   border-radius: 50%;
   height: 200px;
   width: 200px;
   object-fit: cover;
 }
 
-#boxes .box-profile-team #logos a{
+.flex-container > .box-profile-team #logos a{
   margin-left: 8px;
 }
-#boxes .box-profile-team #logos a i{
+.flex-container > .box-profile-team #logos a i{
   font-size: 20px;
   color: #616161;
 }
@@ -290,15 +300,6 @@ article#main-col{
   border-radius: 6px;
 }
 
-#meet-team{
-  margin-top: 20px;
-}
-
-#meet-team{
-  border-radius: 20px;
-  border-width: 1px;
-}
-
 footer{
   padding-top: 20px;
   padding-bottom: 20px;
@@ -312,9 +313,6 @@ footer{
 
 /* Media Queries */
 @media(max-width: 768px){
-  header #branding,
-  header img,
-  header #branding h1,
   #newsletter h1,
   #newsletter form,
   article#main-col,
@@ -322,10 +320,6 @@ footer{
     float:none;
     text-align:center;
     width:100%;
-  }
-    #boxes .box{
-    width: 95%;
-    padding: 10px;
   }
 
   #boxes .box-sponsor{
@@ -336,22 +330,12 @@ footer{
     width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     }
   .section-header div h3{
     font-size: 25px; 
     }
-  .container{
-    vertical-align: center;
-    text-align: center;
-  }
-
-  #boxes .box{
-    align-content: center;
-  }
-
-  header{
-    padding-bottom:20px;
-  }
 
   #showcase h1{
     margin-top:40px;
@@ -367,20 +351,6 @@ footer{
     width:96%;
     margin-bottom:5px;
   }
-
-
-#boxes .box-profile{
-  float:none;
-  width: 80%;
-  margin: 10px;
-}
-
-
-#boxes .box-profile-team{
-  float:none;
-  width: 80%;
-  margin: 10px;
-}
 
   /*Tiime Line */
   .timeline::after {
@@ -417,11 +387,53 @@ footer{
   }
 
 
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}
+
+.flex-container > div{
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Comfortaa';
+  border-width: 3px;
+  padding: 10px;
+}
+
+
+.flex-container > .box-profile{
+  text-align: center;
+  border-radius: 20px;
+  margin: 20px;
+  width: auto;
+  border:1px solid black;
+  padding:20px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  font-family: 'Comfortaa';
+}
+
+
+.flex-container > .box-profile-team{
+  border-radius: 20px;
+  border:1px solid black;
+  padding:20px;
+  margin:20px; 
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  width:auto;
+  font-family: 'Comfortaa';
+}
+
 #showcase{
-  margin-top:-100px; 
-  min-height:650px;
-  background:url('../img/CS-01.png') no-repeat 0;
-  background-size:100% 100%;
+  min-height:300px;
+  background-size: cover;
+}
+
+#showcase p{
+  font-size: 20px;
+  margin-left: -40px;
+  margin-top: 200px;
 }
 
   footer{
