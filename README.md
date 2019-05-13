@@ -32,27 +32,27 @@ Flutter Bootcamp will be held for a month(?) to help people learn Flutter from g
 
 ## Agenda
 
-### Day 1
+### 16th June
 
 Start Time - End Time : OOP concepts & Why Dart <br>
 Start Time - End Time : Break <br>
 Start Time - End Time : Introduction to Dart & Exercise on Dartpad <br>
 Start Time - End Time : Feedback & Networking session
 
-### Day 2
+### 23th June
 
 Start Time - End Time : Introduction to Flutter & Flutter Widgets <br>
 Start Time - End Time : Break <br>
 Start Time - End Time : Hands-on Session <br>
 Start Time - End Time : Q&A, Quiz on Kahoot, Feedback & Networking
 
-### Day 3
+### 30th June
 
 Start Time - End Time : Navigation in Flutter & BLoC pattern <br>
 Start Time - End Time : Break <br>
 Start Time - End Time : NoSQL VS SQL, Introduction to Firebase Services & Flutter with Firebase
 Start Time - End Time : Q&A, Feedback & Networking
 
-### Day 4
+### 7th July
 
-Start Time - End Time : Hackathon TBA 
+Start Time - End Time : Flutter Hackathon  
