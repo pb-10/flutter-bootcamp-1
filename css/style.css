@@ -328,10 +328,6 @@ footer{
   }
   .section-header div{
     width: 100%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
     }
   .section-header div h3{
     font-size: 25px; 
@@ -389,6 +385,8 @@ footer{
 
 .flex-container{
   display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;  
   flex-direction: column;
   justify-content: center;
   background-color: white;
@@ -427,12 +425,13 @@ footer{
 
 #showcase{
   min-height:300px;
-  background-size: cover;
+  background:url('../img/flutter-poster-mobile.png') no-repeat 0;
+  background-size: 100% 100%;
 }
 
 #showcase p{
   font-size: 20px;
-  margin-left: -40px;
+  margin-left: -41px;
   margin-top: 200px;
 }
 
