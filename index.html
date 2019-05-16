@@ -10,33 +10,35 @@
   <body>
 
     <section id="showcase">
+      <h1>Flutter Bootcamp</h1>
         <p>Coming Soon To Vadodara</p>
+        <div id="newsletter">
+            <div class="container">
+              <h2>Subscribe To Get Updates</h2>
+              <form id="SubscribeForm">
+                <input type="email" name="email" id="email" placeholder="Enter Email...">
+                <button type="submit" id="submit" class="button_1">Subscribe</button>
+              </form>
+                <script>
+                  const scriptURL = 'https://script.google.com/macros/s/AKfycbykUSW-y3rSo8h3dYFcG81roM6FFKYxeTAxLPEnLjRhQRxIsYs/exec'
+                  const form = document.forms['SubscribeForm']
+      
+                  form.addEventListener('submit', e => {
+                    e.preventDefault() 
+                    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                    .then(function (response) {
+                      console.log('Success!', response)
+                      alert("Subscribed")
+      
+                    })
+                  .catch(error => console.error('Error!', error.message))
+                  })
+              </script>
+            </div>
+          </div>
     </section>
 
-    <section id="newsletter">
-      <div class="container">
-        <h1>Subscribe To Get Updates</h1>
-        <form id="SubscribeForm">
-          <input type="email" name="email" id="email" placeholder="Enter Email...">
-          <button type="submit" id="submit" class="button_1">Subscribe</button>
-        </form>
-          <script>
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbykUSW-y3rSo8h3dYFcG81roM6FFKYxeTAxLPEnLjRhQRxIsYs/exec'
-            const form = document.forms['SubscribeForm']
-
-            form.addEventListener('submit', e => {
-              e.preventDefault() 
-              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-              .then(function (response) {
-                console.log('Success!', response)
-                alert("Subscribed")
-
-              })
-            .catch(error => console.error('Error!', error.message))
-            })
-        </script>
-      </div>
-    </section>
+    
     <section class="section-header">
       <div>
         <h3>WHY FLUTTER?</h3>
@@ -119,7 +121,7 @@
       <div class="containers left">
         <div class="content">
           <h2>WEEK 3</h2>
-          <p>Ever had doubt whether SQL or NoSQL? Don't worry we got your back. You will learn SQL vs NoSQL and Firestore with Flutter.</p>
+          <p>Ever had doubt whether SQL or NoSQL? Don't worry we got your back. You will learn SQL vs NoSQL and Firestore with Flutter. Also you will learn about BLoC patterns.</p>
         </div>
       </div>
       <div class="containers right">
