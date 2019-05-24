@@ -177,9 +177,9 @@ body{
   text-align: center;
   vertical-align: center;
   align-content: center;
-  width:45%;
+  width:30%;
   border-width: 3px;
-  padding:10px;
+  padding:5px;
 }
 
 #boxes .box-sponsor img{
@@ -196,7 +196,7 @@ body{
   text-align: center;
 }
 #boxes .box img{
-  width:90px;
+  width:80px;
 }
 
 /* Sidebar */
