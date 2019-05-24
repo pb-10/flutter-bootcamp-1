@@ -109,12 +109,14 @@ body{
   text-align: center;
 }
 
+.flex-container{
+  padding-top: 75px;
+}
 
 .flex-container > .box-profile{
   text-align: center;
   border-radius: 20px;
   margin: 40px;
-  border:1px solid black;
   padding:20px;
   width: 20%;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
@@ -126,7 +128,14 @@ body{
   border-radius: 50%;
   height: 200px;
   width: 200px;
-  object-fit: cover;
+  object-fit: cover;    
+  position: relative;
+  top: -100px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flex-container > .box-profile h1{
+  margin-top:-50px;
 }
 
 .flex-container > .box-profile #logos a{
@@ -395,7 +404,6 @@ footer{
 
 .flex-container{
   display: flex;
-  padding-top: 20px;
   padding-bottom: 20px;  
   flex-direction: column;
   justify-content: center;
@@ -414,12 +422,14 @@ footer{
 .flex-container > .box-profile{
   text-align: center;
   border-radius: 20px;
-  margin: 20px;
   width: auto;
-  border:1px solid black;
   padding:20px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   font-family: 'Comfortaa';
+}
+
+.flex-container > .box-profile img{
+  margin-top: 25px;
 }
 
 
