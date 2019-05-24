@@ -4,7 +4,7 @@ body{
   font: 15px/1.5 Arial, Helvetica,sans-serif;
   padding:0;
   margin:0;
-  background-color:#f4f4f4;
+  background-color:#fff;
   box-sizing: border-box;
 }
 
@@ -95,7 +95,7 @@ body{
 }
 
 .section-header div{
-    background-color: #121212;
+  background:#2a3c9d;
     color: #FFF;
     width: 100%;
     padding-top:10px;
@@ -282,7 +282,7 @@ article#main-col{
   right: 30px;
   border: medium solid white;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #121212;
+  border-color: transparent transparent transparent #1E88E5;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -296,7 +296,7 @@ article#main-col{
   left: 30px;
   border: medium solid white;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #121212 transparent transparent;
+  border-color: transparent #1E88E5 transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -307,12 +307,13 @@ article#main-col{
 /* The actual content */
 .content {
   padding: 20px 30px;
-  background-color: #121212;
+  background-color: #1E88E5;
   color: #FFF;
   font-size: 16px;
   font-family: 'Comfortaa';
   position: relative;
   border-radius: 6px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 footer{
