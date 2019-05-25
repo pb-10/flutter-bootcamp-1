@@ -111,17 +111,6 @@ body{
 
 .flex-container{
   padding-top: 75px;
-  
-}
-
-.flex-container-logo{
-  display: flex;
-  width: 99%;
-  overflow: hidden;
-  justify-content: center;
-  background-color: white;
-  align-items: center;
-
 }
 
 .flex-container > .box-profile{
@@ -183,10 +172,23 @@ body{
 }
 
 
+#boxes .box-sponsor{
+  float:left;
+  text-align: center;
+  vertical-align: center;
+  align-content: center;
+  width:30%;
+  border-width: 3px;
+  padding:5px;
+}
 
-.flex-container-logo > .box-sponsor img{
-  width: 200px;
-  padding: 40px;
+#boxes .box-sponsor img{
+  width: 45%;
+  height: 45%;
+}
+
+#boxes .box-sponsor #mozilla-image img{
+  margin-top: 10px;
 }
 
 #boxes .box p{
@@ -409,15 +411,6 @@ footer{
   background-color: white;
 }
 
-
-.flex-container-logo{
-  display: flex;
-  padding-bottom: 20px;  
-  flex-direction: column;
-  justify-content: center;
-  background-color: white;
-}
-
 .flex-container > div{
   margin-top: 20px;
   text-align: center;
@@ -439,7 +432,6 @@ footer{
 .flex-container > .box-profile img{
   margin-top: 25px;
 }
-
 
 
 .flex-container > .box-profile-team{
