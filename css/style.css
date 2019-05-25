@@ -111,17 +111,17 @@ body{
 
 .flex-container{
   padding-top: 75px;
-  align-items: center;
   
 }
 
 .flex-container-logo{
   display: flex;
-  width: 100%;
+  width: 99%;
+  overflow: hidden;
   justify-content: center;
   background-color: white;
   align-items: center;
-  padding: 10px;
+
 }
 
 .flex-container > .box-profile{
@@ -439,6 +439,7 @@ footer{
 .flex-container > .box-profile img{
   margin-top: 25px;
 }
+
 
 
 .flex-container > .box-profile-team{
