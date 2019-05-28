@@ -14,26 +14,10 @@
         <p>16th June to 7th July</p>
         <div id="newsletter">
             <div class="container">
-              <h2>Subscribe To Get Updates</h2>
-              <form id="SubscribeForm">
-                <input type="email" name="email" id="email" placeholder="Enter Email...">
-                <button type="submit" id="submit" class="button_1">Subscribe</button>
+              <h2>Register To Bootcamp</h2>
+              <form id="SubscribeForm" action="https://bit.ly/flutterbootcampregistration" target="_blank">
+                <button type="submit" id="submit" class="button_1">Register</button>
               </form>
-                <script>
-                  const scriptURL = 'https://script.google.com/macros/s/AKfycbykUSW-y3rSo8h3dYFcG81roM6FFKYxeTAxLPEnLjRhQRxIsYs/exec'
-                  const form = document.forms['SubscribeForm']
-      
-                  form.addEventListener('submit', e => {
-                    e.preventDefault() 
-                    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                    .then(function (response) {
-                      console.log('Success!', response)
-                      alert("Subscribed")
-      
-                    })
-                  .catch(error => console.error('Error!', error.message))
-                  })
-              </script>
             </div>
           </div>
     </section>
@@ -157,8 +141,8 @@
         </div>
       </section>
   
-      <section id="boxes">
-        <div class="container">
+      <section>
+        <div class="flex-container-sponsors">
           <div class="box-sponsor">
             <img src="./img/GitHub_Logo.png">
           </div>
@@ -167,6 +151,9 @@
           </div>
           <div class="box-sponsor">
               <span id="mozilla-image"><img src="./img/ms.png"></span>
+            </div>
+          <div class="box-sponsor">
+              <span id="Git Kraken"><img src="./img/gitKraken.png"></span>
             </div>
         </div>
       </section>

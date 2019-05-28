@@ -81,11 +81,6 @@ body{
   margin-top:15px;
 }
 
-#newsletter input[type="email"]{
-  padding:4px;
-  height:25px;
-  width:250px;
-}
 
 
 /* Boxes */
@@ -171,25 +166,22 @@ body{
   color: #616161;
 }
 
+/*Sponsors*/
 
-#boxes .box-sponsor{
-  float:left;
-  text-align: center;
-  vertical-align: center;
-  align-content: center;
-  width:30%;
-  border-width: 3px;
-  padding:5px;
+
+.flex-container-sponsors{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
 }
 
-#boxes .box-sponsor img{
-  width: 45%;
-  height: 45%;
+.flex-container-sponsors > .box-sponsor img{
+  margin: 30px;
+  width: 200px;
 }
 
-#boxes .box-sponsor #mozilla-image img{
-  margin-top: 10px;
-}
 
 #boxes .box p{
   font-family: 'Comfortaa';
@@ -363,11 +355,6 @@ footer{
     width:100%;
   }
 
-  #newsletter form input[type="email"], .quote input, .quote textarea{
-    width:96%;
-    margin-bottom:5px;
-  }
-
   /*Tiime Line */
   .timeline::after {
   left: 31px;
@@ -443,6 +430,15 @@ footer{
   width:auto;
   font-family: 'Comfortaa';
 }
+
+.flex-container-sponsors{
+  display: flex;
+  padding-bottom: 20px;  
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}
+
 
 #showcase{
   min-height:300px;
