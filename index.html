@@ -233,6 +233,22 @@
        <div class="panel">
          <p>A- no. The bootcamp will only be on 16, 23 and 30 of June and on 7 July (Sundays). During weekdays you'll explore Flutter by yourself.</p>
        </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+    </script>
    <footer>
       <p>Made with &#128156; DSC Parul University & DSC SVIT</p>
       <p>Copyright &copy; 2019</p>
